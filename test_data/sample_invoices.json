@@ -1,0 +1,80 @@
+[
+  {
+    "id": "INV-2026-0891",
+    "supplier_name": "Kashmir Agro Food Suppliers",
+    "invoice_number": "KAF/26-27/0891",
+    "invoice_date": "2026-10-25",
+    "is_interstate": false,
+    "description": "Monthly fresh produce and pantry replenishment for Resort Kitchen",
+    "items": [
+      {
+        "description": "Fresh Organic Vegetables & Local Herbs",
+        "taxable_amount": 14500.00,
+        "gst_rate": 0,
+        "ledger_name": "Purchase - Groceries 0%"
+      },
+      {
+        "description": "Paneer, Butter & Curd (Branded)",
+        "taxable_amount": 28400.00,
+        "gst_rate": 5,
+        "ledger_name": "Purchase - Food & Beverage 5%"
+      },
+      {
+        "description": "Gourmet Chocolates & Imported Sauces",
+        "taxable_amount": 12600.00,
+        "gst_rate": 18,
+        "ledger_name": "Purchase - Groceries 18%"
+      }
+    ],
+    "other_charges": 750.00,
+    "discount": 500.00
+  },
+  {
+    "id": "INV-2026-1044",
+    "supplier_name": "Shalimar Spa Botanicals (Delhi)",
+    "invoice_number": "SSB/DEL/26/1044",
+    "invoice_date": "2026-10-22",
+    "is_interstate": true,
+    "description": "Inter-state procurement of Ayurvedic essential oils and herbal therapy kits",
+    "items": [
+      {
+        "description": "Pure Walnut & Almond Therapy Massage Oil",
+        "taxable_amount": 35000.00,
+        "gst_rate": 12,
+        "ledger_name": "Purchase - Spa Consumables 12%"
+      },
+      {
+        "description": "Aromatherapy Reed Diffusers & Scented Candles",
+        "taxable_amount": 18000.00,
+        "gst_rate": 18,
+        "ledger_name": "Purchase - Spa Consumables 18%"
+      }
+    ],
+    "other_charges": 1200.00,
+    "discount": 0.00
+  },
+  {
+    "id": "INV-2026-0312",
+    "supplier_name": "Himalayan Clean & Care Linens",
+    "invoice_number": "HCC-OCT-312",
+    "invoice_date": "2026-10-26",
+    "is_interstate": false,
+    "description": "High-thread count luxury bed linens and bathrobes for Royal Suite wing",
+    "items": [
+      {
+        "description": "Egyptian Cotton Bed Sheets & Duvet Covers",
+        "taxable_amount": 62000.00,
+        "gst_rate": 5,
+        "ledger_name": "Purchase - Housekeeping Linens 5%"
+      },
+      {
+        "description": "Plush Velvet Cushion Covers & Bed Runners",
+        "taxable_amount": 24000.00,
+        "gst_rate": 12,
+        "ledger_name": "Purchase - Room Supplies 12%"
+      }
+    ],
+    "other_charges": 900.00,
+    "discount": 1000.00
+  }
+]

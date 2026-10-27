@@ -1,0 +1,84 @@
+<ENVELOPE>
+  <HEADER>
+    <TALLYREQUEST>Import Data</TALLYREQUEST>
+  </HEADER>
+  <BODY>
+    <IMPORTDATA>
+      <REQUESTDESC>
+        <REPORTNAME>All Masters</REPORTNAME>
+        <STATICVARIABLES>
+          <SVCURRENTCOMPANY>Chinar Resort &amp; Spa Pvt Ltd. ACUTAL</SVCURRENTCOMPANY>
+        </STATICVARIABLES>
+      </REQUESTDESC>
+      <REQUESTDATA>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create">
+            <DATE>20261025</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>KAF/26-27/0891</REFERENCE>
+            <VOUCHERNUMBER>PUR/2026/0891</VOUCHERNUMBER>
+            <PARTYLEDGERNAME>Kashmir Agro Food Suppliers</PARTYLEDGERNAME>
+            <BASICBUYERNAME>Kashmir Agro Food Suppliers</BASICBUYERNAME>
+            <NARRATION>Purchase of fresh resort produce and groceries for kitchen</NARRATION>
+            <ISINVOICE>Yes</ISINVOICE>
+            <!-- Supplier Credit Entry (Net Payable = 59,938.00) -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Kashmir Agro Food Suppliers</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>59938.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Debit: Taxable items -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Groceries 0%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-14500.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Food &amp; Beverage 5%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-28400.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Purchase - Groceries 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-12600.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Debit: Taxes (Intra-state CGST & SGST) -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST 2.5%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-710.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST 2.5%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-710.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-1134.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-1134.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Debit: Freight -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Freight &amp; Cartage Inward</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-750.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Credit: Discount -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Discount Received</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>500.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+      </REQUESTDATA>
+    </IMPORTDATA>
+  </BODY>
+</ENVELOPE>

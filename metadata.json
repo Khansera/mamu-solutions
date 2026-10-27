@@ -1,0 +1,8 @@
+{
+  "name": "Tally AI Assistant (Tally 7.1 + Gemini)",
+  "description": "Integration bridge and AI accounting assistant for Tally 7.1 with deterministic GST validation, ledger-aware purchase vouchers, XML generation, and local Windows 10 FastAPI connectivity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
